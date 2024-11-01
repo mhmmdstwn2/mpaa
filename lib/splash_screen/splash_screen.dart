@@ -3,18 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:mpaa/onnboarding/onboarding_screen.dart'; // Ganti dengan path yang sesuai
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
-  _SplashScreenState createState() => _SplashScreenState();
+  SplashScreenState createState() => SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
     // Menunggu 3 detik sebelum menavigasi ke OnboardingScreen
-    Timer(Duration(seconds: 3), () {
+    Timer(const Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => OnboardingScreen()),
+        MaterialPageRoute(builder: (context) => const OnboardingScreen()),
       );
     });
   }
@@ -29,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
           children: [
             // Ganti dengan logo aplikasi Anda
             Image.asset('assets/images/ss_prev_ui.png', height: 500), // Pastikan logo ada di folder assets
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
         
           ],
         ),

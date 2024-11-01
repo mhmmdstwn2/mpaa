@@ -12,20 +12,20 @@ class OnboardingContents {
 
 List<OnboardingContents> contents = [
   OnboardingContents(
-    title: "Track Your work and get the result",
+    title: "guru",
     image: "assets/images/image1.png",
-    desc: "Remember to keep track of your professional accomplishments.",
+    desc: "Pelajari Fitur Fitur Untuk guru Yang Menarik.",
   ),
   OnboardingContents(
-    title: "Stay organized with team",
+    title: "SISWA",
     image: "assets/images/image2.png",
     desc:
-        "But understanding the contributions our colleagues make to our teams and companies.",
+        "Pelajari Fitur Fitur SIswa Yang Menarik",
   ),
   OnboardingContents(
-    title: "Get notified when work happens",
+    title: "Yuk Join QUIZ ",
     image: "assets/images/image3.png",
     desc:
-        "Take control of notifications, collaborate live or on your own time.",
+        "Join quiz ke aplikasi MPAA!!",
   ),
 ];
